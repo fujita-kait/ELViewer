@@ -1,10 +1,8 @@
-//
 //  EpcTVC.swift
 //  ParseJSON_02
 //
 //  Created by 藤田裕之 on 2016/07/15.
 //  Copyright © 2016年 SmartHouse. All rights reserved.
-//
 
 import UIKit
 
@@ -48,7 +46,7 @@ class EpcTVC: UITableViewController {
         return cell
     }
 
-    // header
+    // Set Header
     override func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         return (elObjCode + ": " + elObjectName)
     }
