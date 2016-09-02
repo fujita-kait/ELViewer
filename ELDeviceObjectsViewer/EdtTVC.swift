@@ -41,8 +41,11 @@ class EdtTVC: UITableViewController {
                 if let kvs = content.keyValues {
                     numberOfRows += kvs.count
                 }
-                if let bitmap = content.bitmap {
-                    numberOfRows += bitmap.count
+                if let bitmaps = content.bitmap {
+                    for bitmap in bitmaps {
+                        numberOfRows += 2   //  name and range
+                        numberOfRows += bitmap.bitValues.count
+                    }
                 }
                 if content.numericValue != nil {
                     numberOfRows += 5
@@ -185,14 +188,22 @@ class EdtTVC: UITableViewController {
                             }
                         }
                         // Bitmap
-                        if let bitmap = content.bitmap {
-                            var bit = 0
-                            for bm in bitmap {
-                                textForTitle.append("bit\(bit)")
-                                textForDetail.append("\(bm.name),0:\(bm.b0),1:\(bm.b1)")
-                                bit += 1
+                        if let bitmaps = content.bitmap {
+                            for bitmap in bitmaps {
+                                textForTitle.append("Bitmap: Name")
+                                textForDetail.append("\(bitmap.bitName)")
+                                textForTitle.append("Bitmap: Range")
+                                textForDetail.append("\(bitmap.bitRange)")
+                                var tmp = [String]()
+                                for (key, value) in bitmap.bitValues {
+                                    textForTitle.append("Bitmap: Value")
+                                    tmp.append("\(key) : \(value)")
+                                }
+                                tmp.sortInPlace{$0 < $1}
+                                textForDetail += tmp
                             }
                         }
+                        
                         // Level
                         if let level = content.level {
                             textForTitle.append("Level: MIN")

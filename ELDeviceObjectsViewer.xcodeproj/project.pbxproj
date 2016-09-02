@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		961B69E21D79110300CE7D7D /* superClass.json in Resources */ = {isa = PBXBuildFile; fileRef = 961B69E11D79110300CE7D7D /* superClass.json */; };
-		962EE56D1D78001B008B6A92 /* deviceObject_G.json in Resources */ = {isa = PBXBuildFile; fileRef = 962EE5691D78001B008B6A92 /* deviceObject_G.json */; };
+		961B69EE1D79667100CE7D7D /* deviceObject_G.json in Resources */ = {isa = PBXBuildFile; fileRef = 961B69ED1D79667100CE7D7D /* deviceObject_G.json */; };
 		962EE56E1D78001B008B6A92 /* EdtTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962EE56A1D78001B008B6A92 /* EdtTVC.swift */; };
 		962EE56F1D78001B008B6A92 /* ELObjectTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962EE56B1D78001B008B6A92 /* ELObjectTableViewController.swift */; };
 		962EE5701D78001B008B6A92 /* EpcTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962EE56C1D78001B008B6A92 /* EpcTVC.swift */; };
@@ -41,7 +41,7 @@
 		4E1659AAB88931DBE269D27C /* Pods-ELDeviceObjectsViewerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ELDeviceObjectsViewerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ELDeviceObjectsViewerTests/Pods-ELDeviceObjectsViewerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		80DEB3113C47CA3019CF83A8 /* Pods_ELDeviceObjectsViewerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ELDeviceObjectsViewerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		961B69E11D79110300CE7D7D /* superClass.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = superClass.json; sourceTree = "<group>"; };
-		962EE5691D78001B008B6A92 /* deviceObject_G.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = deviceObject_G.json; sourceTree = "<group>"; };
+		961B69ED1D79667100CE7D7D /* deviceObject_G.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = deviceObject_G.json; sourceTree = "<group>"; };
 		962EE56A1D78001B008B6A92 /* EdtTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EdtTVC.swift; sourceTree = "<group>"; };
 		962EE56B1D78001B008B6A92 /* ELObjectTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ELObjectTableViewController.swift; sourceTree = "<group>"; };
 		962EE56C1D78001B008B6A92 /* EpcTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EpcTVC.swift; sourceTree = "<group>"; };
@@ -120,7 +120,7 @@
 				962EE56C1D78001B008B6A92 /* EpcTVC.swift */,
 				962EE5711D780028008B6A92 /* JsonStruct.swift */,
 				962EE5721D780028008B6A92 /* Main.storyboard */,
-				962EE5691D78001B008B6A92 /* deviceObject_G.json */,
+				961B69ED1D79667100CE7D7D /* deviceObject_G.json */,
 				962EE5731D780028008B6A92 /* nodeProfile.json */,
 				961B69E11D79110300CE7D7D /* superClass.json */,
 				962EE5751D780028008B6A92 /* TopViewController.swift */,
@@ -238,9 +238,9 @@
 			files = (
 				961B69E21D79110300CE7D7D /* superClass.json in Resources */,
 				96D9FDB91D77FD8600DAE0E4 /* LaunchScreen.storyboard in Resources */,
-				962EE56D1D78001B008B6A92 /* deviceObject_G.json in Resources */,
 				962EE5781D780028008B6A92 /* nodeProfile.json in Resources */,
 				96D9FDB61D77FD8600DAE0E4 /* Assets.xcassets in Resources */,
+				961B69EE1D79667100CE7D7D /* deviceObject_G.json in Resources */,
 				962EE5771D780028008B6A92 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

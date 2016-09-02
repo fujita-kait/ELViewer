@@ -78,7 +78,7 @@ struct Element: Unboxable {
 struct Content: Unboxable {
     let keyValues: [String:String]?
     let numericValue: NumericValue?
-    let bitmap: [BitData]?     // bitmap data
+    let bitmap: [BitMap]?     // bitmap data
     let level: Level?
     let rawData: String?
     let customType: String?
@@ -120,15 +120,15 @@ struct NumericValue: Unboxable {
     }
 }
 
-struct BitData: Unboxable {
-    let name: String
-    let b0: String
-    let b1: String
+struct BitMap: Unboxable {
+    let bitName: String
+    let bitRange: [Int]
+    let bitValues: [String:String]
 
     init(unboxer: Unboxer) {
-        self.name = unboxer.unbox("name")
-        self.b0 = unboxer.unbox("b0")
-        self.b1 = unboxer.unbox("b1")
+        self.bitName = unboxer.unbox("bitName")
+        self.bitRange = unboxer.unbox("bitRange")
+        self.bitValues = unboxer.unbox("bitValues")
     }
 }
 
