@@ -39,7 +39,8 @@ class ELObjectTableViewController: UITableViewController {
             appendix = parsedData
             elObjects = parsedData.elObjects
             deviceObjectCodes = (appendix?.elObjects.keys.sort())!
-            print("deviceObjectCodes \(deviceObjectCodes)")
+//            print("deviceObjectCodes \(deviceObjectCodes)")
+//            print("Appendix \(appendix)")
             
         } catch { print("ERROR Unbox") }
                 

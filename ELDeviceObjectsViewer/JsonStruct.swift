@@ -105,7 +105,7 @@ struct NumericValue: Unboxable {
     init(unboxer: Unboxer) {
         self.integerType = unboxer.unbox("integerType")
         self.magnification = (unboxer.unbox("magnification") ?? 0)    // default is x1
-        self.unit = (unboxer.unbox("unit") ?? "")   // default is ""
+        self.unit = (unboxer.unbox("unit") ?? "N/A")
         self.min = unboxer.unbox("min")
         self.max = unboxer.unbox("max")
     }
