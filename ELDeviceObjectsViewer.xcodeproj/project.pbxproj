@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		961B69E21D79110300CE7D7D /* superClass.json in Resources */ = {isa = PBXBuildFile; fileRef = 961B69E11D79110300CE7D7D /* superClass.json */; };
-		961B69EE1D79667100CE7D7D /* deviceObject_G.json in Resources */ = {isa = PBXBuildFile; fileRef = 961B69ED1D79667100CE7D7D /* deviceObject_G.json */; };
 		962EE56E1D78001B008B6A92 /* EdtTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962EE56A1D78001B008B6A92 /* EdtTVC.swift */; };
 		962EE56F1D78001B008B6A92 /* ELObjectTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962EE56B1D78001B008B6A92 /* ELObjectTableViewController.swift */; };
 		962EE5701D78001B008B6A92 /* EpcTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962EE56C1D78001B008B6A92 /* EpcTVC.swift */; };
@@ -16,6 +14,8 @@
 		962EE5771D780028008B6A92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 962EE5721D780028008B6A92 /* Main.storyboard */; };
 		962EE5781D780028008B6A92 /* nodeProfile.json in Resources */ = {isa = PBXBuildFile; fileRef = 962EE5731D780028008B6A92 /* nodeProfile.json */; };
 		962EE57A1D780028008B6A92 /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962EE5751D780028008B6A92 /* TopViewController.swift */; };
+		965929821D7D4CDC006943B5 /* superClass.json in Resources */ = {isa = PBXBuildFile; fileRef = 965929811D7D4CDC006943B5 /* superClass.json */; };
+		965929861D7D5759006943B5 /* deviceObject_G.json in Resources */ = {isa = PBXBuildFile; fileRef = 965929851D7D5759006943B5 /* deviceObject_G.json */; };
 		96D9FDAF1D77FD8600DAE0E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D9FDAE1D77FD8600DAE0E4 /* AppDelegate.swift */; };
 		96D9FDB61D77FD8600DAE0E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96D9FDB51D77FD8600DAE0E4 /* Assets.xcassets */; };
 		96D9FDB91D77FD8600DAE0E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96D9FDB71D77FD8600DAE0E4 /* LaunchScreen.storyboard */; };
@@ -40,8 +40,6 @@
 		12FF7BB3B695318D8FF06B3B /* Pods-ELDeviceObjectsViewer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ELDeviceObjectsViewer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ELDeviceObjectsViewer/Pods-ELDeviceObjectsViewer.debug.xcconfig"; sourceTree = "<group>"; };
 		4E1659AAB88931DBE269D27C /* Pods-ELDeviceObjectsViewerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ELDeviceObjectsViewerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ELDeviceObjectsViewerTests/Pods-ELDeviceObjectsViewerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		80DEB3113C47CA3019CF83A8 /* Pods_ELDeviceObjectsViewerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ELDeviceObjectsViewerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		961B69E11D79110300CE7D7D /* superClass.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = superClass.json; sourceTree = "<group>"; };
-		961B69ED1D79667100CE7D7D /* deviceObject_G.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = deviceObject_G.json; sourceTree = "<group>"; };
 		962EE56A1D78001B008B6A92 /* EdtTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EdtTVC.swift; sourceTree = "<group>"; };
 		962EE56B1D78001B008B6A92 /* ELObjectTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ELObjectTableViewController.swift; sourceTree = "<group>"; };
 		962EE56C1D78001B008B6A92 /* EpcTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EpcTVC.swift; sourceTree = "<group>"; };
@@ -49,6 +47,8 @@
 		962EE5721D780028008B6A92 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		962EE5731D780028008B6A92 /* nodeProfile.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nodeProfile.json; sourceTree = "<group>"; };
 		962EE5751D780028008B6A92 /* TopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
+		965929811D7D4CDC006943B5 /* superClass.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = superClass.json; sourceTree = "<group>"; };
+		965929851D7D5759006943B5 /* deviceObject_G.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = deviceObject_G.json; sourceTree = "<group>"; };
 		96D9FDAB1D77FD8500DAE0E4 /* ELDeviceObjectsViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ELDeviceObjectsViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96D9FDAE1D77FD8600DAE0E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96D9FDB51D77FD8600DAE0E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -120,9 +120,9 @@
 				962EE56C1D78001B008B6A92 /* EpcTVC.swift */,
 				962EE5711D780028008B6A92 /* JsonStruct.swift */,
 				962EE5721D780028008B6A92 /* Main.storyboard */,
-				961B69ED1D79667100CE7D7D /* deviceObject_G.json */,
+				965929811D7D4CDC006943B5 /* superClass.json */,
+				965929851D7D5759006943B5 /* deviceObject_G.json */,
 				962EE5731D780028008B6A92 /* nodeProfile.json */,
-				961B69E11D79110300CE7D7D /* superClass.json */,
 				962EE5751D780028008B6A92 /* TopViewController.swift */,
 				96D9FDB51D77FD8600DAE0E4 /* Assets.xcassets */,
 				96D9FDB71D77FD8600DAE0E4 /* LaunchScreen.storyboard */,
@@ -236,11 +236,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				961B69E21D79110300CE7D7D /* superClass.json in Resources */,
+				965929821D7D4CDC006943B5 /* superClass.json in Resources */,
 				96D9FDB91D77FD8600DAE0E4 /* LaunchScreen.storyboard in Resources */,
 				962EE5781D780028008B6A92 /* nodeProfile.json in Resources */,
 				96D9FDB61D77FD8600DAE0E4 /* Assets.xcassets in Resources */,
-				961B69EE1D79667100CE7D7D /* deviceObject_G.json in Resources */,
+				965929861D7D5759006943B5 /* deviceObject_G.json in Resources */,
 				962EE5771D780028008B6A92 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

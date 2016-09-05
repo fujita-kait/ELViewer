@@ -174,15 +174,19 @@ class EdtTVC: UITableViewController {
                             textForTitle.append("Numeric Value")
                             let unit = value.unit!
                             textForDetail.append("Unit: \(unit)")
-                            textForTitle.append("Numeric Value")
-                            textForDetail.append("Min: \(value.min)")
-                            textForTitle.append("Numeric Value")
                             
                             // add "," to every 3 digit
                             let formatter = NSNumberFormatter()
                             formatter.numberStyle = NSNumberFormatterStyle.DecimalStyle
                             formatter.groupingSeparator = ","
                             formatter.groupingSize = 3
+
+                            textForTitle.append("Numeric Value")
+                            if let result = formatter.stringFromNumber(NSNumber(integer: value.min)) {
+                                textForDetail.append("Min: \(result)")
+                            }
+//                            textForDetail.append("Min: \(value.min)")
+                            textForTitle.append("Numeric Value")
                             if let result = formatter.stringFromNumber(NSNumber(integer: value.max)) {
                                 textForDetail.append("Max: \(result)")
                             }
