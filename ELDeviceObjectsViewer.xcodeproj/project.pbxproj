@@ -15,11 +15,11 @@
 		962EE5781D780028008B6A92 /* nodeProfile.json in Resources */ = {isa = PBXBuildFile; fileRef = 962EE5731D780028008B6A92 /* nodeProfile.json */; };
 		962EE57A1D780028008B6A92 /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962EE5751D780028008B6A92 /* TopViewController.swift */; };
 		965929821D7D4CDC006943B5 /* superClass.json in Resources */ = {isa = PBXBuildFile; fileRef = 965929811D7D4CDC006943B5 /* superClass.json */; };
-		965929861D7D5759006943B5 /* deviceObject_G.json in Resources */ = {isa = PBXBuildFile; fileRef = 965929851D7D5759006943B5 /* deviceObject_G.json */; };
 		96D9FDAF1D77FD8600DAE0E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D9FDAE1D77FD8600DAE0E4 /* AppDelegate.swift */; };
 		96D9FDB61D77FD8600DAE0E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96D9FDB51D77FD8600DAE0E4 /* Assets.xcassets */; };
 		96D9FDB91D77FD8600DAE0E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96D9FDB71D77FD8600DAE0E4 /* LaunchScreen.storyboard */; };
 		96D9FDC41D77FD8600DAE0E4 /* ELDeviceObjectsViewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D9FDC31D77FD8600DAE0E4 /* ELDeviceObjectsViewerTests.swift */; };
+		96E395C81D7EA9FE00B83989 /* deviceObject_G.json in Resources */ = {isa = PBXBuildFile; fileRef = 96E395C71D7EA9FE00B83989 /* deviceObject_G.json */; };
 		A7CCDC61340EF6205B3233CD /* Pods_ELDeviceObjectsViewerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80DEB3113C47CA3019CF83A8 /* Pods_ELDeviceObjectsViewerTests.framework */; };
 		BE737A33C0A386D04336B1E5 /* Pods_ELDeviceObjectsViewer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB0EC18095F99A922C53403B /* Pods_ELDeviceObjectsViewer.framework */; };
 /* End PBXBuildFile section */
@@ -48,7 +48,6 @@
 		962EE5731D780028008B6A92 /* nodeProfile.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nodeProfile.json; sourceTree = "<group>"; };
 		962EE5751D780028008B6A92 /* TopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
 		965929811D7D4CDC006943B5 /* superClass.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = superClass.json; sourceTree = "<group>"; };
-		965929851D7D5759006943B5 /* deviceObject_G.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = deviceObject_G.json; sourceTree = "<group>"; };
 		96D9FDAB1D77FD8500DAE0E4 /* ELDeviceObjectsViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ELDeviceObjectsViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96D9FDAE1D77FD8600DAE0E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96D9FDB51D77FD8600DAE0E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,6 +56,7 @@
 		96D9FDBF1D77FD8600DAE0E4 /* ELDeviceObjectsViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ELDeviceObjectsViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96D9FDC31D77FD8600DAE0E4 /* ELDeviceObjectsViewerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ELDeviceObjectsViewerTests.swift; sourceTree = "<group>"; };
 		96D9FDC51D77FD8600DAE0E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96E395C71D7EA9FE00B83989 /* deviceObject_G.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = deviceObject_G.json; sourceTree = "<group>"; };
 		AB0EC18095F99A922C53403B /* Pods_ELDeviceObjectsViewer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ELDeviceObjectsViewer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -121,7 +121,7 @@
 				962EE5711D780028008B6A92 /* JsonStruct.swift */,
 				962EE5721D780028008B6A92 /* Main.storyboard */,
 				965929811D7D4CDC006943B5 /* superClass.json */,
-				965929851D7D5759006943B5 /* deviceObject_G.json */,
+				96E395C71D7EA9FE00B83989 /* deviceObject_G.json */,
 				962EE5731D780028008B6A92 /* nodeProfile.json */,
 				962EE5751D780028008B6A92 /* TopViewController.swift */,
 				96D9FDB51D77FD8600DAE0E4 /* Assets.xcassets */,
@@ -240,7 +240,7 @@
 				96D9FDB91D77FD8600DAE0E4 /* LaunchScreen.storyboard in Resources */,
 				962EE5781D780028008B6A92 /* nodeProfile.json in Resources */,
 				96D9FDB61D77FD8600DAE0E4 /* Assets.xcassets in Resources */,
-				965929861D7D5759006943B5 /* deviceObject_G.json in Resources */,
+				96E395C81D7EA9FE00B83989 /* deviceObject_G.json in Resources */,
 				962EE5771D780028008B6A92 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
