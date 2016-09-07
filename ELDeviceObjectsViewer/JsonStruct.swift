@@ -2,8 +2,7 @@
 //  JsonStruct.swift
 //  ELDeviceObjectsViewer
 //
-//  Created by 藤田裕之 on 2016/08/30.
-//
+//  Created by 藤田裕之 on 2016/09/07.
 
 import Foundation
 import Unbox
@@ -50,7 +49,6 @@ struct Epc: Unboxable {
     }
     enum AccessModeCode: String, UnboxableEnum {
         case required = "required"
-        case requiredWithCondition = "requiredWithCondition"
         case optional = "optional"
         case notApplicable = "notApplicable"
         case ERROR = "ERROR"

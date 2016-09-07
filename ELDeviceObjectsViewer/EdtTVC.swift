@@ -1,10 +1,10 @@
 //  EdtTVC.swift
 //  ELDeviceObjectsViewer
 //
-//  Created by Hiro Fujita on 2016/09/01.
+//  Created by Hiro Fujita on 2016/09/07.
 //  Copyright © 2016年 SmartHouse. All rights reserved.
 //
-//  STATUS: need to modify to implement level, rawData, customType and others
+//  STATUS: done
 
 import UIKit
 
@@ -72,8 +72,6 @@ class EdtTVC: UITableViewController {
         switch text {
         case "required":
             returnValue = "Required"
-        case "requiredWithCondition":
-            returnValue = "Required with condition"
         case "optional":
             returnValue = "Optional"
         case "notApplicable":
@@ -84,6 +82,17 @@ class EdtTVC: UITableViewController {
         return returnValue
     }
 
+    func convertAccsessModeConditionText(text:String) -> String {
+        var returnValue = text
+        switch text {
+        case "referSpec":
+            returnValue = "Refer Appendix"
+        default:
+            break
+        }
+        return returnValue
+    }
+    
     func convertOthersText(text:String) -> String {
         var returnValue = text
         switch text {
@@ -122,8 +131,8 @@ class EdtTVC: UITableViewController {
                     detailLabel.text = convertAccsessModeText(epc.accessModeAnno.rawValue)
                 case 5:
                     label.text = "Access mode Condition"
-                    let remark = epc.accessModeCondition ?? ""
-                    detailLabel.text = remark
+                    let condition = epc.accessModeCondition ?? ""
+                    detailLabel.text = convertAccsessModeConditionText(condition)
                 default:
                     label.text = ""
                 }

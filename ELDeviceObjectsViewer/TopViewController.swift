@@ -2,7 +2,7 @@
 //  TopViewController.swift
 //  ELDeviceObjectsViewer
 //
-//  Created by 藤田裕之 on 2016/08/30.
+//  Created by 藤田裕之 on 2016/09/07.
 //  Copyright © 2016年 SmartHouse. All rights reserved.
 //
 
@@ -12,12 +12,9 @@ class TopViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
 
     // MARK: - Navigation
-
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
@@ -34,5 +31,4 @@ class TopViewController: UIViewController {
             }
         }
     }
-
 }

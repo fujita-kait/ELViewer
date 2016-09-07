@@ -1,10 +1,10 @@
 //  ELObjectTableViewController.swift
 //  ELDeviceObjectsViewer
 //
-//  Created by 藤田裕之 on 2016/09/01.
+//  Created by 藤田裕之 on 2016/09/07.
 //  Copyright © 2016年 SmartHouse. All rights reserved.
 //
-//  STATUS: Working
+//  STATUS: done
 
 import UIKit
 import Unbox
