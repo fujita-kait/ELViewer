@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': '/Users/fujita/Dropbox/IT/iOS/Development/ELDeviceObjectsViewer/Build/Products/Debug-iphonesimulator/Unbox/Unbox.framework/Modules'
+    'contents': [{
+      'type': 'file',
+      'name': 'module.modulemap',
+      'external-contents': '/Users/fujita/Dropbox/IT/iOS/Development/ELDeviceObjectsViewer/Build/Intermediates/Pods.build/Debug-iphonesimulator/Unbox.build/unextended-module.modulemap',
+    }]
+  }]
+}

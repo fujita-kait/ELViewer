@@ -1,0 +1,60 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/fujita/Dropbox/IT/iOS/Development/ELDeviceObjectsViewer/Build/Products/Debug-iphonesimulator/Pods_ELDeviceObjectsViewer.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-ELDeviceObjectsViewer-umbrella.h",
+          'external-contents': "/Users/fujita/Dropbox/IT/iOS/Development/ELDeviceObjectsViewer/Pods/Target Support Files/Pods-ELDeviceObjectsViewer/Pods-ELDeviceObjectsViewer-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_ELDeviceObjectsViewer-Swift.h",
+          'external-contents': "/Users/fujita/Dropbox/IT/iOS/Development/ELDeviceObjectsViewer/Build/Products/Debug-iphonesimulator/Pods_ELDeviceObjectsViewer.framework/Headers/Pods_ELDeviceObjectsViewer-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/fujita/Dropbox/IT/iOS/Development/ELDeviceObjectsViewer/Build/Products/Debug-iphonesimulator/Pods_ELDeviceObjectsViewer.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/fujita/Dropbox/IT/iOS/Development/ELDeviceObjectsViewer/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-ELDeviceObjectsViewer.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/fujita/Dropbox/IT/iOS/Development/ELDeviceObjectsViewer/Build/Products/Debug-iphonesimulator/Unbox/Unbox.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Unbox-Swift.h",
+          'external-contents': "/Users/fujita/Dropbox/IT/iOS/Development/ELDeviceObjectsViewer/Build/Products/Debug-iphonesimulator/Unbox/Unbox.framework/Headers/Unbox-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Unbox-umbrella.h",
+          'external-contents': "/Users/fujita/Dropbox/IT/iOS/Development/ELDeviceObjectsViewer/Pods/Target Support Files/Unbox/Unbox-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/fujita/Dropbox/IT/iOS/Development/ELDeviceObjectsViewer/Build/Products/Debug-iphonesimulator/Unbox/Unbox.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/fujita/Dropbox/IT/iOS/Development/ELDeviceObjectsViewer/Build/Intermediates/Pods.build/Debug-iphonesimulator/Unbox.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

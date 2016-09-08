@@ -1,0 +1,10 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.8 clang-703.0.31)"
+options: "2cb23024d8f24ef0bfaccbb21727b775"
+build_time: [526610355, 889830000]
+inputs:
+  "/Users/fujita/Dropbox/IT/iOS/Development/ELDeviceObjectsViewer/ELDeviceObjectsViewer/TopViewController.swift": [526538369, 0]
+  "/Users/fujita/Dropbox/IT/iOS/Development/ELDeviceObjectsViewer/ELDeviceObjectsViewer/EpcTVC.swift": [526027736, 0]
+  "/Users/fujita/Dropbox/IT/iOS/Development/ELDeviceObjectsViewer/ELDeviceObjectsViewer/AppDelegate.swift": [526025350, 0]
+  "/Users/fujita/Dropbox/IT/iOS/Development/ELDeviceObjectsViewer/ELDeviceObjectsViewer/EdtTVC.swift": [526538372, 0]
+  "/Users/fujita/Dropbox/IT/iOS/Development/ELDeviceObjectsViewer/ELDeviceObjectsViewer/ELObjectTableViewController.swift": [526538372, 0]
+  "/Users/fujita/Dropbox/IT/iOS/Development/ELDeviceObjectsViewer/ELDeviceObjectsViewer/JsonStruct.swift": [526538372, 0]

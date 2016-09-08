@@ -1,0 +1,339 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Appendix"
+- "ElObject"
+- "Epc"
+- "Element"
+- "Content"
+- "NumericValue"
+- "BitMap"
+- "Level"
+provides-nominal:
+- "V21ELDeviceObjectsViewer8Appendix"
+- "V21ELDeviceObjectsViewer8ElObject"
+- "V21ELDeviceObjectsViewer3Epc"
+- "OV21ELDeviceObjectsViewer3Epc14AccessModeCode"
+- "V21ELDeviceObjectsViewer7Element"
+- "V21ELDeviceObjectsViewer7Content"
+- "V21ELDeviceObjectsViewer12NumericValue"
+- "OV21ELDeviceObjectsViewer12NumericValue11IntegerType"
+- "V21ELDeviceObjectsViewer6BitMap"
+- "V21ELDeviceObjectsViewer5Level"
+provides-member:
+- ["V21ELDeviceObjectsViewer8Appendix", ""]
+- ["V21ELDeviceObjectsViewer8ElObject", ""]
+- ["V21ELDeviceObjectsViewer3Epc", ""]
+- ["OV21ELDeviceObjectsViewer3Epc14AccessModeCode", ""]
+- ["V21ELDeviceObjectsViewer7Element", ""]
+- ["V21ELDeviceObjectsViewer7Content", ""]
+- ["V21ELDeviceObjectsViewer12NumericValue", ""]
+- ["OV21ELDeviceObjectsViewer12NumericValue11IntegerType", ""]
+- ["V21ELDeviceObjectsViewer6BitMap", ""]
+- ["V21ELDeviceObjectsViewer5Level", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Unboxable"
+- "BitMap"
+- "ElObject"
+- "Element"
+- "Content"
+- "Int"
+- "UnboxableEnum"
+- "NumericValue"
+- !private "FloatLiteralType"
+- "=="
+- !private "~="
+- "Appendix"
+- !private "IntegerLiteralType"
+- "Epc"
+- "String"
+- "Level"
+- "Unboxer"
+- "StringLiteralType"
+- !private "??"
+depends-member:
+- ["OV21ELDeviceObjectsViewer3Epc14AccessModeCode", "AccessModeCode"]
+- ["OV21ELDeviceObjectsViewer3Epc14AccessModeCode", "ERROR"]
+- ["OV21ELDeviceObjectsViewer3Epc14AccessModeCode", "RawValue"]
+- ["OV21ELDeviceObjectsViewer3Epc14AccessModeCode", "deinit"]
+- ["OV21ELDeviceObjectsViewer3Epc14AccessModeCode", "hashValue"]
+- ["OV21ELDeviceObjectsViewer3Epc14AccessModeCode", "init"]
+- ["OV21ELDeviceObjectsViewer3Epc14AccessModeCode", "notApplicable"]
+- ["OV21ELDeviceObjectsViewer3Epc14AccessModeCode", "optional"]
+- ["OV21ELDeviceObjectsViewer3Epc14AccessModeCode", "rawValue"]
+- ["OV21ELDeviceObjectsViewer3Epc14AccessModeCode", "required"]
+- ["OV21ELDeviceObjectsViewer3Epc14AccessModeCode", "unboxFallbackValue"]
+- !private ["Ps9AnyObject", "unbox"]
+- ["V21ELDeviceObjectsViewer8Appendix", "ElObject"]
+- ["V21ELDeviceObjectsViewer8Appendix", "String"]
+- ["V21ELDeviceObjectsViewer8Appendix", "Unboxer"]
+- ["V21ELDeviceObjectsViewer8Appendix", "date"]
+- ["V21ELDeviceObjectsViewer8Appendix", "deinit"]
+- ["V21ELDeviceObjectsViewer8Appendix", "elObjects"]
+- ["V21ELDeviceObjectsViewer8Appendix", "init"]
+- ["V21ELDeviceObjectsViewer8Appendix", "version"]
+- !private ["Sa", "deinit"]
+- !private ["Ps22BidirectionalIndexType", "hashValue"]
+- ["V21ELDeviceObjectsViewer6BitMap", "Int"]
+- ["V21ELDeviceObjectsViewer6BitMap", "String"]
+- ["V21ELDeviceObjectsViewer6BitMap", "Unboxer"]
+- ["V21ELDeviceObjectsViewer6BitMap", "bitName"]
+- ["V21ELDeviceObjectsViewer6BitMap", "bitRange"]
+- ["V21ELDeviceObjectsViewer6BitMap", "bitValues"]
+- ["V21ELDeviceObjectsViewer6BitMap", "deinit"]
+- ["V21ELDeviceObjectsViewer6BitMap", "init"]
+- !private ["Ps21BitwiseOperationsType", "hashValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["Ps11CVarArgType", "hashValue"]
+- !private ["Ps10Comparable", "hashValue"]
+- ["V21ELDeviceObjectsViewer7Content", "BitMap"]
+- ["V21ELDeviceObjectsViewer7Content", "Level"]
+- ["V21ELDeviceObjectsViewer7Content", "NumericValue"]
+- ["V21ELDeviceObjectsViewer7Content", "String"]
+- ["V21ELDeviceObjectsViewer7Content", "Unboxer"]
+- ["V21ELDeviceObjectsViewer7Content", "bitmap"]
+- ["V21ELDeviceObjectsViewer7Content", "customType"]
+- ["V21ELDeviceObjectsViewer7Content", "deinit"]
+- ["V21ELDeviceObjectsViewer7Content", "init"]
+- ["V21ELDeviceObjectsViewer7Content", "keyValues"]
+- ["V21ELDeviceObjectsViewer7Content", "level"]
+- ["V21ELDeviceObjectsViewer7Content", "numericValue"]
+- ["V21ELDeviceObjectsViewer7Content", "others"]
+- ["V21ELDeviceObjectsViewer7Content", "rawData"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- !private ["Vs10Dictionary", "deinit"]
+- ["V21ELDeviceObjectsViewer8ElObject", "Epc"]
+- ["V21ELDeviceObjectsViewer8ElObject", "String"]
+- ["V21ELDeviceObjectsViewer8ElObject", "Unboxer"]
+- ["V21ELDeviceObjectsViewer8ElObject", "deinit"]
+- ["V21ELDeviceObjectsViewer8ElObject", "epcs"]
+- ["V21ELDeviceObjectsViewer8ElObject", "init"]
+- ["V21ELDeviceObjectsViewer8ElObject", "objectName"]
+- ["V21ELDeviceObjectsViewer7Element", "Content"]
+- ["V21ELDeviceObjectsViewer7Element", "Int"]
+- ["V21ELDeviceObjectsViewer7Element", "String"]
+- ["V21ELDeviceObjectsViewer7Element", "Unboxer"]
+- ["V21ELDeviceObjectsViewer7Element", "content"]
+- ["V21ELDeviceObjectsViewer7Element", "deinit"]
+- ["V21ELDeviceObjectsViewer7Element", "elementName"]
+- ["V21ELDeviceObjectsViewer7Element", "elementSize"]
+- ["V21ELDeviceObjectsViewer7Element", "init"]
+- ["V21ELDeviceObjectsViewer7Element", "repeatCount"]
+- ["V21ELDeviceObjectsViewer3Epc", "AccessModeCode"]
+- ["V21ELDeviceObjectsViewer3Epc", "Element"]
+- ["V21ELDeviceObjectsViewer3Epc", "Int"]
+- ["V21ELDeviceObjectsViewer3Epc", "String"]
+- ["V21ELDeviceObjectsViewer3Epc", "UnboxableEnum"]
+- ["V21ELDeviceObjectsViewer3Epc", "Unboxer"]
+- ["V21ELDeviceObjectsViewer3Epc", "accessModeAnno"]
+- ["V21ELDeviceObjectsViewer3Epc", "accessModeCondition"]
+- ["V21ELDeviceObjectsViewer3Epc", "accessModeGet"]
+- ["V21ELDeviceObjectsViewer3Epc", "accessModeSet"]
+- ["V21ELDeviceObjectsViewer3Epc", "deinit"]
+- ["V21ELDeviceObjectsViewer3Epc", "edt"]
+- ["V21ELDeviceObjectsViewer3Epc", "epcName"]
+- ["V21ELDeviceObjectsViewer3Epc", "epcSize"]
+- ["V21ELDeviceObjectsViewer3Epc", "init"]
+- !private ["Ps9Equatable", "ERROR"]
+- ["Ps9Equatable", "RawValue"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "hashValue"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "rawValue"]
+- ["Ps9Equatable", "unboxFallbackValue"]
+- ["Ps9Equatable", ""]
+- !private ["Ps16ForwardIndexType", "hashValue"]
+- !private ["Ps8Hashable", "ERROR"]
+- ["Ps8Hashable", "RawValue"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "hashValue"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "rawValue"]
+- ["Ps8Hashable", "unboxFallbackValue"]
+- ["Ps8Hashable", ""]
+- !private ["Si", "deinit"]
+- !private ["Si", "hashValue"]
+- !private ["Ps21IntegerArithmeticType", "hashValue"]
+- !private ["Ps25IntegerLiteralConvertible", "hashValue"]
+- ["OV21ELDeviceObjectsViewer12NumericValue11IntegerType", "ERROR"]
+- ["OV21ELDeviceObjectsViewer12NumericValue11IntegerType", "IntegerType"]
+- ["OV21ELDeviceObjectsViewer12NumericValue11IntegerType", "RawValue"]
+- ["OV21ELDeviceObjectsViewer12NumericValue11IntegerType", "Signed"]
+- ["OV21ELDeviceObjectsViewer12NumericValue11IntegerType", "Unsigned"]
+- ["OV21ELDeviceObjectsViewer12NumericValue11IntegerType", "deinit"]
+- ["OV21ELDeviceObjectsViewer12NumericValue11IntegerType", "hashValue"]
+- ["OV21ELDeviceObjectsViewer12NumericValue11IntegerType", "init"]
+- ["OV21ELDeviceObjectsViewer12NumericValue11IntegerType", "rawValue"]
+- ["OV21ELDeviceObjectsViewer12NumericValue11IntegerType", "unboxFallbackValue"]
+- !private ["Ps11IntegerType", "hashValue"]
+- ["V21ELDeviceObjectsViewer5Level", "Int"]
+- ["V21ELDeviceObjectsViewer5Level", "Unboxer"]
+- ["V21ELDeviceObjectsViewer5Level", "deinit"]
+- ["V21ELDeviceObjectsViewer5Level", "init"]
+- ["V21ELDeviceObjectsViewer5Level", "max"]
+- ["V21ELDeviceObjectsViewer5Level", "min"]
+- !private ["Ps14MirrorPathType", "hashValue"]
+- !private ["CSo8NSObject", "deinit"]
+- !private ["CSo8NSString", "deinit"]
+- ["V21ELDeviceObjectsViewer12NumericValue", "Int"]
+- ["V21ELDeviceObjectsViewer12NumericValue", "IntegerType"]
+- ["V21ELDeviceObjectsViewer12NumericValue", "String"]
+- ["V21ELDeviceObjectsViewer12NumericValue", "UnboxableEnum"]
+- ["V21ELDeviceObjectsViewer12NumericValue", "Unboxer"]
+- ["V21ELDeviceObjectsViewer12NumericValue", "deinit"]
+- ["V21ELDeviceObjectsViewer12NumericValue", "init"]
+- ["V21ELDeviceObjectsViewer12NumericValue", "integerType"]
+- ["V21ELDeviceObjectsViewer12NumericValue", "magnification"]
+- ["V21ELDeviceObjectsViewer12NumericValue", "max"]
+- ["V21ELDeviceObjectsViewer12NumericValue", "min"]
+- ["V21ELDeviceObjectsViewer12NumericValue", "unit"]
+- !private ["Sq", "deinit"]
+- !private ["Ps21RandomAccessIndexType", "hashValue"]
+- !private ["Vs5Range", "deinit"]
+- !private ["Ps16RawRepresentable", "ERROR"]
+- ["Ps16RawRepresentable", "RawValue"]
+- ["Ps16RawRepresentable", "hashValue"]
+- ["Ps16RawRepresentable", "init"]
+- ["Ps16RawRepresentable", "rawValue"]
+- ["Ps16RawRepresentable", "unboxFallbackValue"]
+- ["Ps16RawRepresentable", ""]
+- !private ["Ps17SignedIntegerType", "hashValue"]
+- !private ["Ps16SignedNumberType", "hashValue"]
+- !private ["Ps10Strideable", "hashValue"]
+- ["SS", "deinit"]
+- !private ["P5Unbox19UnboxCompatibleType", "ERROR"]
+- ["P5Unbox19UnboxCompatibleType", "RawValue"]
+- !private ["P5Unbox19UnboxCompatibleType", "_getBuiltinLogicValue"]
+- ["P5Unbox19UnboxCompatibleType", "hashValue"]
+- ["P5Unbox19UnboxCompatibleType", "init"]
+- ["P5Unbox19UnboxCompatibleType", "rawValue"]
+- ["P5Unbox19UnboxCompatibleType", "unboxFallbackValue"]
+- ["P5Unbox19UnboxCompatibleType", ""]
+- !private ["P5Unbox9Unboxable", "accessModeAnno"]
+- !private ["P5Unbox9Unboxable", "accessModeCondition"]
+- !private ["P5Unbox9Unboxable", "accessModeGet"]
+- !private ["P5Unbox9Unboxable", "accessModeSet"]
+- !private ["P5Unbox9Unboxable", "bitName"]
+- !private ["P5Unbox9Unboxable", "bitRange"]
+- !private ["P5Unbox9Unboxable", "bitValues"]
+- !private ["P5Unbox9Unboxable", "bitmap"]
+- !private ["P5Unbox9Unboxable", "content"]
+- !private ["P5Unbox9Unboxable", "customType"]
+- !private ["P5Unbox9Unboxable", "date"]
+- !private ["P5Unbox9Unboxable", "edt"]
+- !private ["P5Unbox9Unboxable", "elObjects"]
+- !private ["P5Unbox9Unboxable", "elementName"]
+- !private ["P5Unbox9Unboxable", "elementSize"]
+- !private ["P5Unbox9Unboxable", "epcName"]
+- !private ["P5Unbox9Unboxable", "epcSize"]
+- !private ["P5Unbox9Unboxable", "epcs"]
+- ["P5Unbox9Unboxable", "init"]
+- !private ["P5Unbox9Unboxable", "integerType"]
+- !private ["P5Unbox9Unboxable", "keyValues"]
+- !private ["P5Unbox9Unboxable", "level"]
+- !private ["P5Unbox9Unboxable", "magnification"]
+- !private ["P5Unbox9Unboxable", "max"]
+- !private ["P5Unbox9Unboxable", "min"]
+- !private ["P5Unbox9Unboxable", "numericValue"]
+- !private ["P5Unbox9Unboxable", "objectName"]
+- !private ["P5Unbox9Unboxable", "others"]
+- !private ["P5Unbox9Unboxable", "rawData"]
+- !private ["P5Unbox9Unboxable", "repeatCount"]
+- !private ["P5Unbox9Unboxable", "unit"]
+- !private ["P5Unbox9Unboxable", "version"]
+- ["P5Unbox9Unboxable", ""]
+- !private ["P5Unbox13UnboxableEnum", "ERROR"]
+- ["P5Unbox13UnboxableEnum", "RawValue"]
+- ["P5Unbox13UnboxableEnum", "hashValue"]
+- ["P5Unbox13UnboxableEnum", "init"]
+- ["P5Unbox13UnboxableEnum", "rawValue"]
+- ["P5Unbox13UnboxableEnum", "unboxFallbackValue"]
+- ["P5Unbox13UnboxableEnum", ""]
+- !private ["P5Unbox16UnboxableRawType", "_getBuiltinLogicValue"]
+- !private ["P5Unbox16UnboxableRawType", "hashValue"]
+- !private ["C5Unbox7Unboxer", "unbox"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "hashValue"]
+- !private ["Ps14_Incrementable", "hashValue"]
+- !private ["Ps22_IntegerArithmeticType", "hashValue"]
+- !private ["Ps12_IntegerType", "hashValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "hashValue"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+- !private ["Ps22_RandomAccessAmbiguity", "hashValue"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "hashValue"]
+- !private ["Ps18_SignedIntegerType", "hashValue"]
+depends-nominal:
+- "OV21ELDeviceObjectsViewer3Epc14AccessModeCode"
+- !private "Ps9AnyObject"
+- "V21ELDeviceObjectsViewer8Appendix"
+- !private "Sa"
+- !private "Ps22BidirectionalIndexType"
+- "V21ELDeviceObjectsViewer6BitMap"
+- !private "Ps21BitwiseOperationsType"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- !private "Ps11CVarArgType"
+- !private "Ps10Comparable"
+- "V21ELDeviceObjectsViewer7Content"
+- !private "Ps23CustomStringConvertible"
+- !private "Vs10Dictionary"
+- "V21ELDeviceObjectsViewer8ElObject"
+- "V21ELDeviceObjectsViewer7Element"
+- "V21ELDeviceObjectsViewer3Epc"
+- "Ps9Equatable"
+- !private "Ps16ForwardIndexType"
+- "Ps8Hashable"
+- !private "Si"
+- !private "Ps21IntegerArithmeticType"
+- !private "Ps25IntegerLiteralConvertible"
+- "OV21ELDeviceObjectsViewer12NumericValue11IntegerType"
+- !private "Ps11IntegerType"
+- "V21ELDeviceObjectsViewer5Level"
+- !private "Ps14MirrorPathType"
+- !private "CSo8NSObject"
+- !private "CSo8NSString"
+- "V21ELDeviceObjectsViewer12NumericValue"
+- !private "Sq"
+- !private "Ps21RandomAccessIndexType"
+- !private "Vs5Range"
+- "Ps16RawRepresentable"
+- !private "Ps17SignedIntegerType"
+- !private "Ps16SignedNumberType"
+- !private "Ps10Strideable"
+- "SS"
+- "P5Unbox19UnboxCompatibleType"
+- "P5Unbox9Unboxable"
+- "P5Unbox13UnboxableEnum"
+- !private "P5Unbox16UnboxableRawType"
+- !private "C5Unbox7Unboxer"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps33_BuiltinIntegerLiteralConvertible"
+- !private "Ps14_Incrementable"
+- !private "Ps22_IntegerArithmeticType"
+- !private "Ps12_IntegerType"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- !private "Ps22_RandomAccessAmbiguity"
+- !private "Ps12_Reflectable"
+- !private "Ps18_SignedIntegerType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Users/fujita/Dropbox/IT/iOS/Development/ELDeviceObjectsViewer/Build/Products/Debug-iphoneos/Unbox/Unbox.framework/Modules/Unbox.swiftmodule/arm64.swiftmodule"
+- "/Users/fujita/Dropbox/IT/iOS/Development/ELDeviceObjectsViewer/Build/Products/Debug-iphoneos/Unbox/Unbox.framework/Headers/Unbox-Swift.h"
+- "/Users/fujita/Dropbox/IT/iOS/Development/ELDeviceObjectsViewer/Build/Products/Debug-iphoneos/Unbox/Unbox.framework/Headers/Unbox-umbrella.h"
+- "/Users/fujita/Dropbox/IT/iOS/Development/ELDeviceObjectsViewer/Build/Products/Debug-iphoneos/Unbox/Unbox.framework/Modules/module.modulemap"
+interface-hash: "689f8be4ff648b3c819167f1c253a46e"

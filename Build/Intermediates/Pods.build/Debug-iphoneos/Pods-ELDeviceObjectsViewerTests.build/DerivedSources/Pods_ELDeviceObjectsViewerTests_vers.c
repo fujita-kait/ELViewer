@@ -1,0 +1,1 @@
+ const unsigned char Pods_ELDeviceObjectsViewerTestsVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:Pods_ELDeviceObjectsViewerTests  PROJECT:Pods-1" "\n"; const double Pods_ELDeviceObjectsViewerTestsVersionNumber __attribute__ ((used)) = (double)1.;

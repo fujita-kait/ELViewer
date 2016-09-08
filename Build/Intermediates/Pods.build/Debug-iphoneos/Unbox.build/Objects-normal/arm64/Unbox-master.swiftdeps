@@ -1,0 +1,5 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.8 clang-703.0.31)"
+options: "3a5ac5c973560bc30c31880387f9aa2b"
+build_time: [526450497, 260543000]
+inputs:
+  "/Users/fujita/Dropbox/IT/iOS/Development/ELDeviceObjectsViewer/Pods/Unbox/Sources/Unbox.swift": [526025474, 0]

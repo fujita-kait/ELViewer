@@ -1,0 +1,216 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TopViewController"
+provides-nominal:
+- "C21ELDeviceObjectsViewer17TopViewController"
+provides-member:
+- ["C21ELDeviceObjectsViewer17TopViewController", ""]
+provides-dynamic-lookup:
+- "prepareForSegue"
+- "viewDidLoad"
+depends-top-level:
+- "TopViewController"
+- !private "StringLiteralType"
+- !private "~="
+- "AnyObject"
+- "UIStoryboardSegue"
+- !private "ELObjectTableViewController"
+- "UIViewController"
+depends-member:
+- !private ["Ps9AnyObject", "destinationViewController"]
+- !private ["Ps9AnyObject", "identifier"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "jsonFileName"]
+- ["Ps9AnyObject", "prepareForSegue"]
+- ["Ps9AnyObject", "viewDidLoad"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["Ps11CVarArgType", "destinationViewController"]
+- !private ["Ps11CVarArgType", "identifier"]
+- ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "jsonFileName"]
+- ["Ps11CVarArgType", "prepareForSegue"]
+- ["Ps11CVarArgType", "viewDidLoad"]
+- ["Ps11CVarArgType", ""]
+- ["Ps28CustomDebugStringConvertible", "Some"]
+- !private ["Ps28CustomDebugStringConvertible", "destinationViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "identifier"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "jsonFileName"]
+- ["Ps28CustomDebugStringConvertible", "prepareForSegue"]
+- ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "destinationViewController"]
+- !private ["Ps23CustomStringConvertible", "identifier"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "jsonFileName"]
+- ["Ps23CustomStringConvertible", "prepareForSegue"]
+- ["Ps23CustomStringConvertible", "viewDidLoad"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["C21ELDeviceObjectsViewer27ELObjectTableViewController", "jsonFileName"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "destinationViewController"]
+- !private ["Ps9Equatable", "identifier"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "jsonFileName"]
+- ["Ps9Equatable", "prepareForSegue"]
+- ["Ps9Equatable", "viewDidLoad"]
+- ["Ps9Equatable", ""]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "destinationViewController"]
+- !private ["Ps8Hashable", "identifier"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "jsonFileName"]
+- ["Ps8Hashable", "prepareForSegue"]
+- ["Ps8Hashable", "viewDidLoad"]
+- ["Ps8Hashable", ""]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "jsonFileName"]
+- ["PSo8NSCoding", "prepareForSegue"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "jsonFileName"]
+- ["PSo26NSExtensionRequestHandling", "prepareForSegue"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- ["CSo8NSObject", "AnyObject"]
+- !private ["CSo8NSObject", "ELObjectTableViewController"]
+- ["CSo8NSObject", "UIStoryboardSegue"]
+- !private ["CSo8NSObject", "deinit"]
+- !private ["CSo8NSObject", "destinationViewController"]
+- !private ["CSo8NSObject", "identifier"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "jsonFileName"]
+- ["CSo8NSObject", "prepareForSegue"]
+- ["CSo8NSObject", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "destinationViewController"]
+- !private ["PSo16NSObjectProtocol", "identifier"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "jsonFileName"]
+- ["PSo16NSObjectProtocol", "prepareForSegue"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["CSo8NSString", "deinit"]
+- ["Ps21NilLiteralConvertible", "Some"]
+- ["Sq", "Some"]
+- !private ["Vs5Range", "deinit"]
+- !private ["SS", "deinit"]
+- ["C21ELDeviceObjectsViewer17TopViewController", "AnyObject"]
+- !private ["C21ELDeviceObjectsViewer17TopViewController", "ELObjectTableViewController"]
+- ["C21ELDeviceObjectsViewer17TopViewController", "UIStoryboardSegue"]
+- ["C21ELDeviceObjectsViewer17TopViewController", "deinit"]
+- ["C21ELDeviceObjectsViewer17TopViewController", "init"]
+- ["C21ELDeviceObjectsViewer17TopViewController", "prepareForSegue"]
+- ["C21ELDeviceObjectsViewer17TopViewController", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "jsonFileName"]
+- ["PSo21UIAppearanceContainer", "prepareForSegue"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- ["PSo18UIContentContainer", "init"]
+- !private ["PSo18UIContentContainer", "jsonFileName"]
+- ["PSo18UIContentContainer", "prepareForSegue"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "jsonFileName"]
+- ["PSo18UIFocusEnvironment", "prepareForSegue"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- ["CSo11UIResponder", "AnyObject"]
+- !private ["CSo11UIResponder", "ELObjectTableViewController"]
+- ["CSo11UIResponder", "UIStoryboardSegue"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "jsonFileName"]
+- ["CSo11UIResponder", "prepareForSegue"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- !private ["PSo20UIScrollViewDelegate", "jsonFileName"]
+- ["PSo16UIStateRestoring", "init"]
+- !private ["PSo16UIStateRestoring", "jsonFileName"]
+- ["PSo16UIStateRestoring", "prepareForSegue"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["CSo17UIStoryboardSegue", "destinationViewController"]
+- !private ["CSo17UIStoryboardSegue", "identifier"]
+- !private ["CSo21UITableViewController", "jsonFileName"]
+- !private ["PSo21UITableViewDataSource", "jsonFileName"]
+- !private ["PSo19UITableViewDelegate", "jsonFileName"]
+- ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "jsonFileName"]
+- ["PSo18UITraitEnvironment", "prepareForSegue"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo16UIViewController", "AnyObject"]
+- !private ["CSo16UIViewController", "ELObjectTableViewController"]
+- ["CSo16UIViewController", "UIStoryboardSegue"]
+- !private ["CSo16UIViewController", "deinit"]
+- ["CSo16UIViewController", "init"]
+- !private ["CSo16UIViewController", "jsonFileName"]
+- ["CSo16UIViewController", "prepareForSegue"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", ""]
+- !private ["P5Unbox19UnboxCompatibleType", "_getBuiltinLogicValue"]
+- !private ["P5Unbox16UnboxableRawType", "_getBuiltinLogicValue"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+- ["Ps12_Reflectable", "Some"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- !private "C21ELDeviceObjectsViewer27ELObjectTableViewController"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "PSo8NSCoding"
+- "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "CSo8NSString"
+- "Ps21NilLiteralConvertible"
+- "Sq"
+- !private "Vs5Range"
+- !private "SS"
+- "C21ELDeviceObjectsViewer17TopViewController"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- "PSo18UIFocusEnvironment"
+- "CSo11UIResponder"
+- !private "PSo20UIScrollViewDelegate"
+- "PSo16UIStateRestoring"
+- !private "CSo17UIStoryboardSegue"
+- !private "CSo21UITableViewController"
+- !private "PSo21UITableViewDataSource"
+- !private "PSo19UITableViewDelegate"
+- "PSo18UITraitEnvironment"
+- "CSo16UIViewController"
+- !private "P5Unbox19UnboxCompatibleType"
+- !private "P5Unbox16UnboxableRawType"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Users/fujita/Dropbox/IT/iOS/Development/ELDeviceObjectsViewer/Build/Products/Debug-iphoneos/Unbox/Unbox.framework/Modules/Unbox.swiftmodule/arm.swiftmodule"
+- "/Users/fujita/Dropbox/IT/iOS/Development/ELDeviceObjectsViewer/Build/Products/Debug-iphoneos/Unbox/Unbox.framework/Headers/Unbox-Swift.h"
+- "/Users/fujita/Dropbox/IT/iOS/Development/ELDeviceObjectsViewer/Build/Products/Debug-iphoneos/Unbox/Unbox.framework/Headers/Unbox-umbrella.h"
+- "/Users/fujita/Dropbox/IT/iOS/Development/ELDeviceObjectsViewer/Build/Products/Debug-iphoneos/Unbox/Unbox.framework/Modules/module.modulemap"
+interface-hash: "68297644346dc4265b6a7fb96fa86230"
